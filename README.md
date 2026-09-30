@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 
   <!-- Animated Typing Header -->
   <a href="https://git.io/typing-svg">
@@ -133,4 +133,4 @@
 <div align="center">
   <sub>⚡ Constantly experimenting with distributed RL, autonomous agents, and systems-level ML infrastructure.</sub>
 </div>
-
+ -->
