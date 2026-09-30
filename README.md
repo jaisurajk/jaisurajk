@@ -130,20 +130,20 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
   </p>
 
   <p align="center">
-    🎓 <b>M.S. in Computer Science @ UC Santa Cruz</b> &bull; B.S. in Computer Science @ UCSC<br />
-    🚀 Focused on <b>Reinforcement Learning, Generative AI / Agentic Systems, Data Engineering, & Cloud Infrastructure</b>.
+    <b>M.S. in Computer Science @ UC Santa Cruz</b> &bull; B.S. in Computer Science @ UCSC<br />
+    Focused on <b>Reinforcement Learning, Generative AI / Agentic Systems, Data Engineering, & Cloud Infrastructure</b>.
   </p>
 
 </div>
 
 ---
 
-### 🔬 Featured Projects
+### Featured Projects
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🐾 Tri-City Agent</h3>
+      <h3 align="center">Tri-City Agent</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
         <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
@@ -157,7 +157,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
       </ul>
     </td>
     <td width="50%">
-      <h3 align="center">🧹 CodeSlob Cleanup</h3>
+      <h3 align="center">CodeSlob Cleanup</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Gemini_API-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" />
@@ -173,7 +173,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">🎮 GenAI Mario Level Generation</h3>
+      <h3 align="center">GenAI Mario Level Generation</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
         <img src="https://img.shields.io/badge/GANs-8A2BE2?style=flat-square" />
@@ -187,7 +187,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
       </ul>
     </td>
     <td width="50%">
-      <h3 align="center">🌐 Multi-Threaded HTTP Server</h3>
+      <h3 align="center">Multi-Threaded HTTP Server</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
         <img src="https://img.shields.io/badge/Linux_OS-FCC624?style=flat-square&logo=linux&logoColor=black" />
@@ -205,7 +205,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
 ---
 
-### 💼 Experience & Leadership Highlights
+### Experience & Leadership Highlights
 
 * **Software Engineer Intern @ Quanta Laboratories** *(Dec 2025 – May 2026)*
   * Engineered a Python-based data ingestion & parsing pipeline for environmental testing across 40 chambers (60K+ records).
@@ -221,7 +221,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
 ---
 
-### 🛠️ Technical Skills
+### Technical Skills
 
 <div align="center">
 
@@ -234,7 +234,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
 </div>
 
-### 📊 GitHub Activity & Analytics
+### GitHub Activity & Analytics
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide=javascript,html,jupyter%20notebook" height="150" alt="Top Languages" />
