@@ -116,14 +116,16 @@
 
 Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if you're building in this space, [email me](mailto:jkaleesw@ucsc.edu) or connect on [LinkedIn](https://linkedin.com/in/jaisuraj-kaleeswaran). -->
 
+<div align="center">
 
+  <!-- Animated Typing Header (Reliable & GitHub Native) -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Jaisuraj+%F0%9F%91%8B;M.S.+in+Computer+Science+%40+UC+Santa+Cruz;Reinforcement+Learning+%7C+Distributed+ML;Autonomous+AI+Agents+%26+Cloud+Infra" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Jaisuraj+%F0%9F%91%8B;M.S.+in+Computer+Science+%40+UC+Santa+Cruz;Reinforcement+Learning+%7C+Distributed+ML;Autonomous+AI+Agents+%26+Cloud+Infra" alt="Typing SVG" />
   </a>
 
   <p align="center">
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:YOUR_EMAIL@ucsc.edu"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://linkedin.com/in/jaisuraj-kaleeswaran"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:jkaleesw@ucsc.edu"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
     <a href="https://github.com/jaisurajk"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   </p>
 
