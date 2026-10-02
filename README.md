@@ -237,17 +237,18 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 ### GitHub Activity & Analytics
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide=javascript,html,jupyter%20notebook" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jaisurajk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&icon_color=1e5fd9&text_color=c9d1d9" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&text_color=c9d1d9&hide=jupyter%20notebook&cache_seconds=1800" height="150" alt="Top Languages" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaisurajk&theme=tokyonight&hide_border=true&background=0d1117" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaisurajk&theme=tokyonight&hide_border=true&background=071428&ring=1e5fd9&fire=39a7ff&currStreakLabel=39a7ff&v=3" alt="Streak Stats" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>⚡ Constantly experimenting with distributed RL, autonomous agents, and systems-level ML infrastructure.</sub>
+  <sub>⚡ Constantly experimenting with low-level acceleration, distributed RL, and cloud-native systems.</sub>
 </div>
