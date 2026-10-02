@@ -238,7 +238,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=jaisurajk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&icon_color=1e5fd9&text_color=c9d1d9" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&text_color=c9d1d9&hide=jupyter%20notebook&cache_seconds=1800" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&text_color=c9d1d9&hide=jupyter%20notebook&exclude_repo=World-Hardest-Game,t-rex-Project,Run-Jaxon,Trex-Game-With-Sounds,Project_Template_C11_Let-s_Run_JAXON,PRO_C16_LP_SA2&cache_seconds=1800" height="150" alt="Top Languages" />
 </div>
 
 <br />
