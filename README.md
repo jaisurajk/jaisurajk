@@ -237,14 +237,14 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 ### GitHub Activity & Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaisurajk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&icon_color=1e5fd9&text_color=c9d1d9" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&text_color=c9d1d9&hide=javascript,html,jupyter%20notebook&cache_seconds=1800" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jaisurajk&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&icon_color=1e5fd9&text_color=c9d1d9&cache_seconds=60" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&text_color=c9d1d9&hide=jupyter%20notebook&exclude_repo=World-Hardest-Game,t-rex-Project,Run-Jaxon,Trex-Game-With-Sounds,Project_Template_C11_Let-s_Run_JAXON,PRO_C16_LP_SA2&cache_seconds=1800" height="150" alt="Top Languages" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaisurajk&theme=tokyonight&hide_border=true&background=071428&ring=1e5fd9&fire=39a7ff&currStreakLabel=39a7ff&v=3" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaisurajk&theme=tokyonight&hide_border=true&background=071428&ring=1e5fd9&fire=39a7ff&currStreakLabel=39a7ff&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=60&v=379" alt="Streak Stats" />
 </div>
 
 ---
