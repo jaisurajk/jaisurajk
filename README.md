@@ -1,5 +1,5 @@
 <!-- <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39A7FF&center=true&vCenter=true&width=750&lines=Jaisuraj+%E2%80%94+AI%2FML+Engineer+%26+Systems+Researcher;M.S.+in+Computer+Science+%40+UC+Santa+Cruz;Distributed+RL+%7C+LLM+Agents+%7C+Data+Pipelines;Building+Autonomous+AI+Platforms+%26+Cloud+Infra" alt="Jaisuraj — M.S. CS @ UCSC. AI/ML, Distributed Systems, Reinforcement Learning, Cloud Infrastructure." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39A7FF&center=true&vCenter=true&width=750&lines=Jaisuraj+%E2%80%94+AI%2FML+Engineer+%26+Systems+Researcher;M.S.+in+Computer+Science+%40+UC+Santa+Cruz;Distributed+RL+%7C+LLM+Agents+%7C+Data+Pipelines;Building+Autonomous+AI+Platforms+%26+Cloud+Infra" alt="Jaisuraj — M.S. CS @ UCSC. AI/ML, Distributed Systems, Reinforcement Learning, Cloud Infrastructure. AI Research" />
 </p>
 
 <p align="center">
@@ -131,7 +131,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
   <p align="center">
     <b>M.S. in Computer Science @ UC Santa Cruz</b> &bull; B.S. in Computer Science @ UCSC<br />
-    Focused on <b>Reinforcement Learning, Generative AI / Agentic Systems, Data Engineering, & Cloud Infrastructure</b>.
+    Focused on <b>Reinforcement Learning, Generative AI / Agentic Systems, Data Engineering, Cloud Infrastructure, & AI Research</b>.
   </p>
 
 </div>
