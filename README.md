@@ -244,7 +244,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 <br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaisurajk&theme=tokyonight&hide_border=true&background=071428&ring=1e5fd9&fire=39a7ff&currStreakLabel=39a7ff&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=60&v=379" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=jaisurajk&theme=tokyonight&hide_border=true&background=071428&ring=1e5fd9&fire=39a7ff&currStreakLabel=39a7ff&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=60&v=105" alt="Streak Stats" />
 </div>
 
 ---
