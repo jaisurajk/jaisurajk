@@ -2,11 +2,8 @@ name: Generate 3D Contribution Calendar
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Daily midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   build:
@@ -19,21 +16,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Strip language donut from SVGs
+      - name: Remove language donut chart
         run: |
           python3 -c '
           import glob, re
-
-          for path in glob.glob("profile-3d-contrib/*.svg"):
-              with open(path, "r", encoding="utf-8") as f:
+          for file in glob.glob("profile-3d-contrib/*.svg"):
+              with open(file, "r", encoding="utf-8") as f:
                   content = f.read()
-              # Removes the donut pie-chart paths and language legend
-              cleaned = re.sub(r"<g[^>]*class=\"pie-lang\"[^>]*>.*?</g>", "", content, flags=re.DOTALL)
-              if cleaned == content:
-                  # Fallback pattern for inline coordinate-based group
-                  cleaned = re.sub(r"<g[^>]*transform=\"translate\([0-9\s.,-]+\)\"[^>]*>.*?<path[^>]*d=\"M.*?A.*?Z\"[^>]*>.*?</g>", "", content, flags=re.DOTALL)
-              with open(path, "w", encoding="utf-8") as f:
-                  f.write(cleaned)
+              # Match and remove the donut and legend group based on coordinates
+              content = re.sub(r"<g[^>]*transform=\"translate\([0-9\s.,-]+\)\"[^>]*>.*?<text[^>]*>C</text>.*?</g>", "", content, flags=re.DOTALL)
+              with open(file, "w", encoding="utf-8") as f:
+                  f.write(content)
           '
 
       - name: Commit and push 3D SVGs
@@ -41,6 +34,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A profile-3d-contrib
-          git commit -m "chore: strip language donut from 3d skyline" || exit 0
+          git commit -m "chore: regenerate 3d calendar without donut" || exit 0
           git push
           
