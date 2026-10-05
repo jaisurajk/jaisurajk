@@ -244,7 +244,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 <br />
 
 <div align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" width="100%" />
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
 </div>
 
 <div align="center">
