@@ -243,6 +243,12 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
 <br />
 
+### 3D Contribution Skyline
+
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
+</div>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/jaisurajk/jaisurajk/output/github-snake.svg" width="100%" alt="Contribution Graph" />
 </div>
