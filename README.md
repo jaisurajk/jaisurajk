@@ -122,7 +122,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
   <!-- Animated Typing Header (Reliable & GitHub Native) -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Jaisuraj+%F0%9F%91%8B;M.S.+in+Computer+Science+%40+UC+Santa+Cruz;Reinforcement+Learning+%7C+Distributed+ML;Autonomous+AI+Agents+%26+Cloud+Infra" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Jaisuraj+%F0%9F%91%8B;M.S.+in+Computer+Science+%40+UC+Santa+Cruz+;Systems+Programming+%7C+Low-Latency+Runtimes+(C%2FC%2B%2B);Distributed+ML+Infra+%7C+Reinforcement+Learning;Autonomous+LLM+Agents+%26+Cloud+Data+Pipelines" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -133,7 +133,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
   <p align="center">
     <b>M.S. in Computer Science @ UC Santa Cruz</b> &bull; B.S. in Computer Science @ UCSC<br />
-    Focused on <b>Reinforcement Learning, Generative AI / Agentic Systems, Data Engineering, Cloud Infrastructure, & AI Research</b>.
+    Focused in <b>Generative AI / Agentic Systems, Systems Programming (C/C++), Reinforcement Learning, Distributed ML Infrastructure, Autonomous AI Agents, Data Engineering, & Cloud Infrastructure</b>.
   </p>
 
 </div>
