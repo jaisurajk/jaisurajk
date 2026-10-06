@@ -116,6 +116,8 @@
 
 Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if you're building in this space, [email me](mailto:jkaleesw@ucsc.edu) or connect on [LinkedIn](https://linkedin.com/in/jaisuraj-kaleeswaran). -->
 
+---
+
 <div align="center">
 
   <!-- Animated Typing Header (Reliable & GitHub Native) -->
@@ -143,17 +145,49 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 <table>
   <tr>
     <td width="50%">
+      <h3 align="center">NitroRing: Silicon Command Queue & DMA Runtime</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/C11-A8B9CC?style=flat-square&logo=c&logoColor=black" />
+        <img src="https://img.shields.io/badge/Atomics-00599C?style=flat-square" />
+        <img src="https://img.shields.io/badge/mmap-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/SIMD-EE4C2C?style=flat-square" />
+        <img src="https://img.shields.io/badge/POSIX_Threads-4A154B?style=flat-square" />
+      </p>
+      <ul>
+        <li>Userspace accelerator runtime emulating lock-free command queues, DMA, MMIO doorbells, and SIMD execution.</li>
+        <li>Reduced command submission latency by <b>85%</b> across execution cycles.</li>
+        <li>Implemented acquire/release atomics, 64-byte cache alignment, and zero-copy memory transfers processing <b>1,000 asynchronous commands</b> with zero dropped requests or deadlocks.</li>
+      </ul>
+    </td>
+    <td width="50%">
       <h3 align="center">Tri-City Agent</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
         <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
         <img src="https://img.shields.io/badge/Claude_API-D97706?style=flat-square&logo=anthropic&logoColor=white" />
         <img src="https://img.shields.io/badge/Gemini_API-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
       </p>
       <ul>
-        <li>Full-stack triage platform orchestrating LLM workflows to classify & route animal shelter inquiries.</li>
+        <li>Full-stack triage platform orchestrating LLM workflows to classify and route animal shelter inquiries.</li>
         <li>Automated routine community requests while escalating emergency cases <b>10x faster</b>.</li>
-        <li>Architected a provider-agnostic inference layer abstracting Claude and Gemini APIs behind a unified endpoint.</li>
+        <li>Automated repetitive shelter tasks with an LLM-powered agent, saving <b>10+ hours/week</b> and freeing <b>$10K/year</b> in staff capacity.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Multi-Threaded HTTP Server</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
+        <img src="https://img.shields.io/badge/Linux_OS-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/POSIX_Threads-4A154B?style=flat-square" />
+        <img src="https://img.shields.io/badge/Mutex_%26_Semaphores-00599C?style=flat-square" />
+      </p>
+      <ul>
+        <li>High-throughput concurrent HTTP server handling <b>1K+ client requests</b> across 4+ worker threads.</li>
+        <li>Synchronized execution using <b>mutexes, semaphores, and reader-writer locks</b> with 0 data races across 1,000+ runs.</li>
+        <li>Achieved a <b>10x throughput improvement</b> and <b>75% latency reduction</b> through optimized file I/O and scheduling.</li>
       </ul>
     </td>
     <td width="50%">
@@ -171,8 +205,10 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
       </ul>
     </td>
   </tr>
+</table>
+<table>
   <tr>
-    <td width="50%">
+<td width="50%">
       <h3 align="center">GenAI Mario Level Generation</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
@@ -186,38 +222,42 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
         <li>Parallelized 100+ training/evaluation experiments with multiprocessing, cutting turnaround by <b>60%</b>.</li>
       </ul>
     </td>
-    <td width="50%">
-      <h3 align="center">Multi-Threaded HTTP Server</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-        <img src="https://img.shields.io/badge/Linux_OS-FCC624?style=flat-square&logo=linux&logoColor=black" />
-        <img src="https://img.shields.io/badge/POSIX_Threads-4A154B?style=flat-square" />
-        <img src="https://img.shields.io/badge/Concurrency-00599C?style=flat-square" />
-      </p>
-      <ul>
-        <li>High-throughput concurrent server handling <b>1K+ client requests</b> across 4+ worker threads.</li>
-        <li>Synchronized execution using <b>mutexes, semaphores, and rwlocks</b> with zero data races across 1,000+ tests.</li>
-        <li>Reduced latency by <b>75%</b> and achieved a <b>10x throughput lift</b> via non-blocking file I/O.</li>
-      </ul>
-    </td>
-  </tr>
+      </tr>
 </table>
 
 ---
 
 ### Experience & Leadership Highlights
 
-* **Software Engineer Intern @ Quanta Laboratories** *(Dec 2025 – May 2026)*
-  * Engineered a Python-based data ingestion & parsing pipeline for environmental testing across 40 chambers (60K+ records).
-  * Designed a **Streamlit** validation dashboard that slashed manual review effort by **90%**.
-* **AI Researcher @ AIEA Lab (UC Santa Cruz)** *(Mar 2025 – Present)*
-  * Led a team of 3 conducting Reinforcement Learning experiments (Gymnasium, Stable-Baselines3), improving cumulative agent reward by **35%**.
-  * Architected distributed RL training runs on **Kubernetes**, reducing execution time by **40%** and improving compute utilization by **25%** across 1,000+ runs.
-* **AI/ML Engineer Intern @ Teens4Teens** *(Jun 2025 – Sep 2025)*
-  * Deployed an automated pipeline using **Apache Airflow, GeoPandas, and AWS S3**, achieving **3x ingestion throughput** on 60K+ records.
-  * Built Random Forest predictive models (87% accuracy) and interactive **Folium** heatmaps to improve resource quota allocations by **20%**.
-* **Data Engineering Fellow @ Data Engineering Bootcamp** *(Jun 2024 – Aug 2024)*
-  * Created an hourly ETL pipeline processing 10K+ SFO crime records with Python, REST APIs, and PostgreSQL on **AWS RDS/EC2/S3** containerized in **Docker**.
+* **Software Engineer Intern (Python) @ Quanta Laboratories** (*Dec 2025 – May 2026 | Santa Clara, CA*)
+  * Owned end-to-end development of a Python-based data ingestion & parsing system for environmental testing across 40 test units, automating **60K+ records** and improving workflow tracking by **5x**.
+  * Designed a Streamlit application to automate data-review workflows, reducing manual review effort by **90%**.
+
+* **AI/ML Engineer Intern @ Teens4Teens** (*Jun 2025 – Sep 2025 | Boston, MA*)
+  * Architected scalable data pipelines using Python, Airflow, and AWS S3 on **60K records**, increasing throughput by **3x**.
+  * Streamlined preprocessing & validation workflows across 10 datasets containing **100K+ records each**, reducing model prediction error by **15%** while achieving **87% accuracy**.
+
+* **AI Researcher @ AIEA Lab** (*Mar 2025 – Present | Santa Cruz, CA*)
+  * Led a team of 3 building and optimizing Python-based distributed ML infrastructure with Kubernetes, increasing compute utilization by **25%** across **1,000+ batch runs**.
+  * Orchestrated reinforcement learning experiments using Gymnasium & Stable-Baselines3, improving agent reward by **35%**.
+  * Built **10+ automated evaluation tools** to improve reproducibility by 40% and cut debugging time by 30%.
+
+* **Data Engineering Fellow @ Data Engineering Bootcamp** (*Jun 2024 – Aug 2024 | Sydney, Australia*)
+  * Engineered automated ETL pipeline to process **10K+ SFO crime records hourly** using Python, SQL, and REST APIs.
+  * Refined PostgreSQL schemas and indexing strategies on AWS RDS, reducing average query latency by **40%**.
+  * Containerized 10 core services with Docker and deployed on AWS EC2/S3, reducing data delivery latency by **35%**.
+
+---
+
+### Certifications
+
+* **Claude With the Anthropic API, AI Fluency: Framework & Foundations** (*Jul 2026*)
+  * Mastered prompt engineering, tool use/function calling, structured JSON output extraction, and agentic workflows using Claude models.
+  * Implemented multi-turn conversational agents with stateful context management and latency-optimized API streaming.
+
+* **AWS Cloud Practitioner Essentials** (*Jun 2026*)
+  * Validated core cloud infrastructure concepts across compute (**EC2**), storage (**S3**), relational databases (**RDS**), and networking.
+  * Gained proficiency in IAM security policies, cloud economics, shared responsibility security models, and distributed deployment architectures.
 
 ---
 
