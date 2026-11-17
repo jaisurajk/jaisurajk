@@ -274,37 +274,19 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
 </div>
 
-### GitHub Activity & Analytics
+## GitHub Activity & Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&text_color=c9d1d9&hide=javascript,html,css,jupyter%20notebook&cache_seconds=60&v=10" height="150" alt="Top Languages" />
+  <!-- Working Top Languages Card (via reliable mirror or summary-cards) -->
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+  <br/><br/>
+
+  <!-- Streak Stats (auto-refreshes via cache) -->
+  <img src="https://streak-stats.demolab.com?user=jaisurajk&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+  <br/><br/>
+
+  <!-- 3D Contribution Graph (updates once you trigger the GitHub Action) -->
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
 </div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaisurajk&v=2&theme=tokyonight&hide_border=true&background=071428&ring=1e5fd9&fire=39a7ff&currStreakLabel=39a7ff&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=60&v=379" alt="Streak Stats" />
-</div>
-
-<!-- <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaisurajk&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&icon_color=1e5fd9&text_color=c9d1d9&cache_seconds=60" height="150" alt="GitHub Stats" />
-  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true&bg_color=071428&title_color=39a7ff&text_color=c9d1d9&hide=javascript,html,css,jupyter%20notebook&cache_seconds=60&v=10" height="150" alt="Top Languages" /> -->
-</div>
-
-<br />
-
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/jaisurajk/jaisurajk/output/github-snake.svg" width="100%" alt="Contribution Graph" />
-</div>
-
----
-
-<div align="center">
-  <sub>⚡ Constantly experimenting with low-level acceleration, distributed RL, and cloud-native systems.</sub>
-</div>
-
-
