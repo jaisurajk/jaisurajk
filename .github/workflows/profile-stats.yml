@@ -22,7 +22,7 @@ jobs:
           USERNAME: jaisurajk
           THEME: tokyonight
 
-      - name: Pull Updated Cards Before 3D Build
+      - name: Pull Updated Cards
         run: git pull --rebase
 
       - name: Generate 3D Isometric Skyline Graph
@@ -30,4 +30,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: jaisurajk
+
+      - name: Commit & Push 3D Skyline SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/
+          git commit -m "chore: update 3D skyline contribution graph" || exit 0
+          git push
           
