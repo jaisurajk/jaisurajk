@@ -1,3 +1,44 @@
+# name: Update Profile Analytics
+
+# on:
+#   schedule:
+#     - cron: "0 8 * * *"
+#   workflow_dispatch:
+
+# permissions:
+#   contents: write
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - name: Generate Top Languages Card
+#         uses: vn7n24fzkq/github-profile-summary-cards@release
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         with:
+#           USERNAME: jaisurajk
+#           THEME: tokyonight
+
+#       - name: Pull Updated Cards
+#         run: git pull --rebase
+
+#       - name: Generate 3D Isometric Skyline Graph
+#         uses: yoshi389111/github-profile-3d-contrib@0.7.1
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           USERNAME: jaisurajk
+
+#       - name: Commit & Push 3D Skyline SVG
+#         run: |
+#           git config user.name "github-actions[bot]"
+#           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           git add profile-3d-contrib/
+#           git commit -m "chore: update 3D skyline contribution graph" || exit 0
+#           git push
+
 name: Update Profile Analytics
 
 on:
@@ -26,16 +67,17 @@ jobs:
         run: git pull --rebase
 
       - name: Generate 3D Isometric Skyline Graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@0.8.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: jaisurajk
 
       - name: Commit & Push 3D Skyline SVG
         run: |
+          git status
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-3d-contrib/
-          git commit -m "chore: update 3D skyline contribution graph" || exit 0
+          git commit -m "chore: update 3D skyline contribution graph"
           git push
           
