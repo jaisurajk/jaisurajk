@@ -277,7 +277,7 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 ## GitHub Activity & Analytics
 
 <div align="center">
-  <img src="./profile-metrics-langs.svg" alt="Top Languages" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" />
 
   <br/><br/>
 
@@ -287,3 +287,4 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
 </div>
+
