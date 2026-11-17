@@ -1,0 +1,46 @@
+name: Update Profile Analytics
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # Runs daily at 08:00 UTC (midnight PST)
+  workflow_dispatch: # Allows manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 1. Generate 3D Isometric Contribution Graph
+      - name: Generate 3D Contrib Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: jaisurajk
+
+      # 2. Generate Top Languages Card Locally (No Vercel Rate Limits)
+      - name: Generate Top Languages SVG
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile-metrics-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: jaisurajk
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_ignored: html, css
+          config_timezone: America/Los_Angeles
+
+      # 3. Commit updated SVGs back to your profile repo
+      - name: Commit & Push SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/ profile-metrics-langs.svg
+          git commit -m "chore: update profile analytics SVGs" || exit 0
+          git push
+          

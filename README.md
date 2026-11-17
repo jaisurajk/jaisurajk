@@ -277,16 +277,13 @@ Distributed AI/ML infrastructure, agentic LLM systems, or computer vision — if
 ## GitHub Activity & Analytics
 
 <div align="center">
-  <!-- Working Top Languages Card (via reliable mirror or summary-cards) -->
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jaisurajk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="./profile-metrics-langs.svg" alt="Top Languages" />
 
   <br/><br/>
 
-  <!-- Streak Stats (auto-refreshes via cache) -->
   <img src="https://streak-stats.demolab.com?user=jaisurajk&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
   <br/><br/>
 
-  <!-- 3D Contribution Graph (updates once you trigger the GitHub Action) -->
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
 </div>
