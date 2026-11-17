@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Profile Summary & 3D Cards
+      - name: Generate Top Languages Card
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -22,7 +22,10 @@ jobs:
           USERNAME: jaisurajk
           THEME: tokyonight
 
-      - name: Generate 3D Contrib Graph
+      - name: Pull Updated Cards Before 3D Build
+        run: git pull --rebase
+
+      - name: Generate 3D Isometric Skyline Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
